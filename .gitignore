@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.venv/
+.venv/
+venv/
+.Python
+
+# FastAPI/Project files
+instance/
+*.db
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+db-data/
+
+# dotenv
+.env
+migrations/
+
+# Byte-compiled and cache
+*.egg-info/
+.eggs/
+.cache/
+
+# pytest
+.pytest_cache/
